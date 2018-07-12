@@ -8,7 +8,7 @@ import java.util.List;
  * @date 2018/7/4 16:27
  * @description
  */
-public class Composite extends Component{
+public class Composite extends Component {
     private List<Component> components = new ArrayList<>();
     public Composite(String name) {
         super(name);
